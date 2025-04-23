@@ -1,6 +1,11 @@
 {
     "configurations": [
         {
+            "name": "PowerShell Attach to Host Process",
+            "type": "PowerShell",
+            "request": "attach"
+        },
+        {
             "name": "(gdb) Pipe Launch",
             "type": "cppdbg",
             "request": "launch",
